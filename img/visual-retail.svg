@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="540" viewBox="0 0 900 540" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="540" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#0F1A33"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="110" y1="120" x2="780" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C5CFF"/>
+      <stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="900" height="540" rx="28" fill="url(#bg)"/>
+  <rect x="52" y="54" width="796" height="432" rx="18" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.12)"/>
+  <text x="80" y="110" fill="rgba(255,255,255,0.86)" font-family="Inter, Arial" font-size="22" font-weight="700">Category Profit (placeholder)</text>
+  <g opacity="0.9">
+    <rect x="120" y="380" width="70" height="70" rx="12" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.10)"/>
+    <rect x="220" y="320" width="70" height="130" rx="12" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.10)"/>
+    <rect x="320" y="260" width="70" height="190" rx="12" fill="url(#accent)"/>
+    <rect x="420" y="300" width="70" height="150" rx="12" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.10)"/>
+    <rect x="520" y="230" width="70" height="220" rx="12" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.10)"/>
+    <rect x="620" y="280" width="70" height="170" rx="12" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.10)"/>
+  </g>
+  <line x1="110" y1="450" x2="790" y2="450" stroke="rgba(255,255,255,0.14)"/>
+  <line x1="110" y1="210" x2="790" y2="210" stroke="rgba(255,255,255,0.08)"/>
+</svg>
+

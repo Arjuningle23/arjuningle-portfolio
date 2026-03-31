@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="540" viewBox="0 0 900 540" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="540" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#0E1730"/>
+    </linearGradient>
+    <linearGradient id="line" x1="120" y1="380" x2="780" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C5CFF"/>
+      <stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="540" rx="28" fill="url(#bg)"/>
+  <rect x="52" y="54" width="796" height="432" rx="18" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.12)"/>
+  <text x="80" y="110" fill="rgba(255,255,255,0.86)" font-family="Inter, Arial" font-size="22" font-weight="700">Monthly Trend (placeholder)</text>
+  <g stroke="rgba(255,255,255,0.08)">
+    <line x1="110" y1="170" x2="790" y2="170"/>
+    <line x1="110" y1="230" x2="790" y2="230"/>
+    <line x1="110" y1="290" x2="790" y2="290"/>
+    <line x1="110" y1="350" x2="790" y2="350"/>
+    <line x1="110" y1="410" x2="790" y2="410"/>
+  </g>
+  <path d="M120 390 C 210 350, 260 420, 340 360 C 420 300, 470 330, 560 290 C 650 250, 690 280, 780 230" stroke="url(#line)" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <g fill="rgba(255,255,255,0.9)">
+    <circle cx="120" cy="390" r="7"/>
+    <circle cx="340" cy="360" r="7"/>
+    <circle cx="560" cy="290" r="7"/>
+    <circle cx="780" cy="230" r="7"/>
+  </g>
+</svg>
+

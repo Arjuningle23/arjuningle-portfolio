@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="540" viewBox="0 0 900 540" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="540" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#0E1730"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="210" y1="210" x2="690" y2="380" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C5CFF"/>
+      <stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="540" rx="28" fill="url(#bg)"/>
+  <rect x="52" y="54" width="796" height="432" rx="18" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.12)"/>
+  <text x="80" y="110" fill="rgba(255,255,255,0.86)" font-family="Inter, Arial" font-size="22" font-weight="700">Correlation View (placeholder)</text>
+  <g transform="translate(160 170)">
+    <rect x="0" y="0" width="600" height="300" rx="18" fill="rgba(0,0,0,0.18)" stroke="rgba(255,255,255,0.10)"/>
+    <g stroke="rgba(255,255,255,0.08)">
+      <line x1="40" y1="240" x2="560" y2="240"/>
+      <line x1="40" y1="190" x2="560" y2="190"/>
+      <line x1="40" y1="140" x2="560" y2="140"/>
+      <line x1="40" y1="90" x2="560" y2="90"/>
+    </g>
+    <g fill="url(#acc)" opacity="0.9">
+      <circle cx="100" cy="220" r="7"/>
+      <circle cx="160" cy="200" r="7"/>
+      <circle cx="210" cy="175" r="7"/>
+      <circle cx="260" cy="165" r="7"/>
+      <circle cx="310" cy="145" r="7"/>
+      <circle cx="360" cy="132" r="7"/>
+      <circle cx="420" cy="118" r="7"/>
+      <circle cx="480" cy="100" r="7"/>
+      <circle cx="520" cy="92" r="7"/>
+    </g>
+    <path d="M90 230 L 540 80" stroke="rgba(255,255,255,0.22)" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>
+
